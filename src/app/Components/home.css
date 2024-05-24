@@ -1,0 +1,15 @@
+.Homepage{
+    /* background-image: url('/60d5b650f4b5659fb2b874ce8171372b.png'); */
+    background-image: url('/60d5b650f4b5659fb2b874ce8171372b.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 40%;
+    background-attachment: fixed;
+    height: 100vh;
+    top: 0%;
+    border-bottom-left-radius: 50px 20px; 
+    border-top-left-radius: 50px 20px;
+    /* position:absolute; */
+    
+
+}
