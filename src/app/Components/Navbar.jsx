@@ -19,7 +19,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" md:absolute md:inset-5 top-0  md:px-20 px-4">
+    <div className=" shadow-md  md:px-20 px-4">
       <div className="flex justify-between items-center">
         <div>
           <Image
@@ -43,41 +43,42 @@ const Navbar = () => {
             </li>
           </ul>
         </div>
-        <div className="md:flex hidden items-center gap-5 text-white">
+        <div className="md:flex hidden items-center gap-5 ">
           <a
             href="https://facebook.com"
             target="_blank"
             rel="noopener noreferrer"
+           
           >
-            <Facebook />
+            <Facebook  size={20} />
           </a>
           <a
             href="https://instagram.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Instagram />
+            <Instagram size={20}  />
           </a>
           <a
             href="https://twitter.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Twitter />
+            <Twitter size={20}  />
           </a>
           <a
             href="https://linkedin.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Linkedin />
+            <Linkedin size={20}  />
           </a>
           <a
             href="https://youtube.com"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <Youtube />
+            <Youtube size={20}  />
           </a>
         </div>
 

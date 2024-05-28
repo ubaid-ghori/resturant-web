@@ -1,15 +1,50 @@
-.Homepage{
-    /* background-image: url('/60d5b650f4b5659fb2b874ce8171372b.png'); */
-    background-image: url('/60d5b650f4b5659fb2b874ce8171372b.png');
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 40%;
-    background-attachment: fixed;
-    height: 100vh;
-    top: 0%;
-    border-bottom-left-radius: 50px 20px; 
-    border-top-left-radius: 50px 20px;
-    /* position:absolute; */
-    
-
-}
+.App {
+    height: 50vh;
+    display: flex;
+  
+    .sidebar {
+      height: 100%;
+      width: 20em;
+      background: rgb(78, 112, 226);
+      display: flex;
+      flex-direction: column;
+      padding-top: 4em;
+    }
+  
+    .item {
+      background: #ffffff;
+      height: 10em;
+      margin-left: 10.5em;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 12pt;
+      font-weight: bold;
+      border-radius: 15px 0 0 15px;
+      position: relative;
+      &::after {
+        content: '';
+        background: rgb(78, 112, 226);
+        height: 2em;
+        width: 2em;
+        position: absolute;
+        bottom: -2em;
+        right: 0em;
+        border-radius: 0 15px 0 0;
+        box-shadow: 0 -16px 0 0 #ffffff;
+      }
+  
+      &::before {
+        content: '';
+        background: rgb(78, 112, 226);
+        height: 2em;
+        width: 2em;
+        position: absolute;
+        top: -2em;
+        right: 0em;
+        border-radius: 0 0 15px 0;
+        box-shadow: 0 16px 0 0 #ffffff;
+      }
+    }
+  }
+  
