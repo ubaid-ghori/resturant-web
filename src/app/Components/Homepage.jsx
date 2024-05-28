@@ -34,7 +34,7 @@ const Homepage = () => {
           </div>
         </div>
 
-        <div>
+        <div className=" mt-10 md:mt-0">
           <Image
             src="/5164e608028799ff7ff8209f19592cb5.png"
             width={391}
@@ -42,11 +42,11 @@ const Homepage = () => {
           ></Image>
         </div>
 
-        <div className=" hidden md:block absolute top-[90%] opacity-40 left-[25%] ">
+        <div className=" hidden md:block absolute top-[80%] opacity-40 left-[25%] ">
         <Image
           src="/307cb4d4a609588fbd84352e4a8966e6.png"
           width={250}
-          height={230}
+          height={300}
         ></Image>
       </div>
       </div>
